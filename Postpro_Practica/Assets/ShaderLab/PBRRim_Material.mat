@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PBRRim_Material
+  m_Shader: {fileID: 4800000, guid: 2ff935d0bce76a149b5244175a4d0f70, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ARM:
+        m_Texture: {fileID: 2800000, guid: 4e88f01c1b96d487da516c8c0d7b237b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 18f4738e7b97247be9c82a9ac464abd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 3b16a6bb3fb1f4496be76190ff97c981, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _emissionTexture:
+        m_Texture: {fileID: 2800000, guid: 4e88f01c1b96d487da516c8c0d7b237b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mainTexture:
+        m_Texture: {fileID: 2800000, guid: 18f4738e7b97247be9c82a9ac464abd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalTexture:
+        m_Texture: {fileID: 2800000, guid: 3b16a6bb3fb1f4496be76190ff97c981, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AOIntensity: 1
+    - _Glossiness: 0.5
+    - _Metallic: 0
+    - _MetallicIntensity: 1
+    - _NormalIntensity: 1
+    - _RimBias: -0.37
+    - _RimIntensity: 1.64
+    - _RimPower: 6.24
+    - _RoughnessIntensity: 1
+    - _UseDirectionalRim: 0
+    - _emissionIntensity: 0.84
+    - _metallic: 0.298
+    - _normalIntensity: 1.05
+    - _rimIntensity: 0.88
+    - _rimPower: 5.85
+    - _smoothness: 0.158
+    m_Colors:
+    - _AlbedoTint: {r: 0.3207547, g: 0.31621572, b: 0.31621572, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimDirection: {r: 2.6, g: 50.59, b: 1.74, a: 0.67}
+    - _emissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _rimColor: {r: 0.4339623, g: 0.41553935, b: 0.41553935, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
